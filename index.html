@@ -5,18 +5,30 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Tech Clicker</title>
+	<link rel="favicon" type="image/jpg" href="http://www.simpleimageresizer.com/_uploads/photos/e1abf2b8/computer_chip_by_pesek_vojta_dac5s1n-pre_50x50.jpg">
 	<link href="techClicker.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	
 	<h1>Tech Clicker</h1>
-	<div id="ccdiv">
-		<button onclick="ccClickFunc()">COMPUTER CHIP</button>
+
+	<h2 id="moneyValueText">$</h2>
+
+	<div id="ccMakeDiv">
+		<input id="ccMakeButton"type="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb93ac72-5f44-465d-aedb-e613c1a5f398/dac5s1n-bba0f203-9971-4d16-9f70-c9ff6325a487.png/v1/fill/w_894,h_894,q_70,strp/computer_chip_by_pesek_vojta_dac5s1n-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2ViOTNhYzcyLTVmNDQtNDY1ZC1hZWRiLWU2MTNjMWE1ZjM5OFwvZGFjNXMxbi1iYmEwZjIwMy05OTcxLTRkMTYtOWY3MC1jOWZmNjMyNWE0ODcucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.LEnXhy2TB-DhpytD4yw2F5rAwM1YUhzb1xEW05_louQ"
+  	onclick="ccClickFunc()" width="50"
+  	height="50">
+
 	</div>
+		<div id="ccSellDiv">
+		<button id="ccSellButton"onclick="ccSell()">Sell Computer Chips</button>
+	</div>
+
 	<h4 id="ccCounter">Computer Chips = </h4>
 
   <script src="clickGainFunc.js"></script>
+	<script src="sellTech.js"></script>
 </body>
 
 </html>

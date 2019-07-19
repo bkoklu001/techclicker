@@ -11,7 +11,17 @@ h1 {
 	display: flex;
 	justify-content: center;
 }
-#ccdiv{
+#ccMakeDiv{
+	display: flex;
+	justify-content: center;
+}
+
+#ccSellDiv{
+	display: flex;
+	justify-content: center;
+}
+
+#moneyValueText{
 	display: flex;
 	justify-content: center;
 }
