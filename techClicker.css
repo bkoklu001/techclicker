@@ -1,27 +1,14 @@
-#cc{
-	display: flex;
-	justify-content: center;
-}
-
-h1 {
-	display: flex;
-	justify-content: center;
-}
 #ccCounter{
 	display: flex;
-	justify-content: center;
-}
-#ccMakeDiv{
-	display: flex;
-	justify-content: center;
-}
-
-#ccSellDiv{
-	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 #moneyValueText{
+	display: flex;
+	justify-content: center;
+}
+
+#titleText{
 	display: flex;
 	justify-content: center;
 }
