@@ -1,8 +1,5 @@
 # Contributor Covenant Code of Conduct
 
-## Contributing
-Please do email us at beraemirkoklu@gmail.com or notify us in any other way if you want to change/add a new feature.
-
 
 ## Our Pledge
 
