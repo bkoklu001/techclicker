@@ -6,9 +6,24 @@
 #moneyValueText{
 	display: flex;
 	justify-content: center;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 #titleText{
 	display: flex;
 	justify-content: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#techClickerDiv{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+#moneyValueText{
+	color: darkgreen;
 }

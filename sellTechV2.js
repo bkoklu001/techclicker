@@ -1,7 +1,5 @@
 var moneyCurrent = 0.00;
 
-//Computer Chips
-
 var ccPrice = 0.25;
 var ccSellAmount;
 var mcPrice = 0.25;
