@@ -5,13 +5,13 @@
 
 #moneyValueText{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	font-family: 'Courier New', Courier, monospace;
 }
 
 #titleText{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	font-family: 'Courier New', Courier, monospace;
 }
 
@@ -26,4 +26,32 @@ button{
 
 #moneyValueText{
 	color: darkgreen;
+}
+
+#memoryDiv{
+	visibility: hidden;
+}
+
+#logicDiv{
+	visibility: hidden;
+}
+
+ul {
+    display: flex;
+		justify-content: space-around;
+}
+
+li {
+  display: inline;
+	margin: 5px;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+#constructionText{
+	display: flex;
+	justify-content: space-around;
 }
