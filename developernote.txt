@@ -1,0 +1,1 @@
+Remember to update money adding function in sellTechV2. Remember to update html files.

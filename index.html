@@ -13,6 +13,12 @@
 	<div id="techClickerDiv">
 	<h2 id="titleText">Tech Clicker</h2>
   <hr style="border: 1% solid;" />
+	<div id="dataDiv">
+	<button id="saveButton" onclick="#">Save</button>
+	<button id="loadButton" onclick="#">Load</button>
+	<button id="resetButton" onclick="#">Reset</button>
+	</div>
+	<hr style="border: 1% solid;" />
 	<h3 id="moneyValueText">$0.00</h3>
   <hr style="border: 1% solid;" />
 
@@ -22,7 +28,7 @@
 		<li><a href="https://github.com/bkoklu001/techclicker/wiki" target="_blank">Wiki</a></li>
 	</ul>
 	<div id="ccDiv">
-		<input id="ccMakeButton"type="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb93ac72-5f44-465d-aedb-e613c1a5f398/dac5s1n-bba0f203-9971-4d16-9f70-c9ff6325a487.png/v1/fill/w_894,h_894,q_70,strp/computer_chip_by_pesek_vojta_dac5s1n-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2ViOTNhYzcyLTVmNDQtNDY1ZC1hZWRiLWU2MTNjMWE1ZjM5OFwvZGFjNXMxbi1iYmEwZjIwMy05OTcxLTRkMTYtOWY3MC1jOWZmNjMyNWE0ODcucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.LEnXhy2TB-DhpytD4yw2F5rAwM1YUhzb1xEW05_louQ"
+		<input id="ccMakeButton"type="image" src="IMAGES/computerchip.jpg"
   	onclick="ccClickFunc(); ccUnlock();" width="50"
   	height="50">
 		<p> </p>
@@ -33,7 +39,7 @@
 	</div>
 
 	<div id="memoryDiv">
-		<input id="mcMakeButton"type="image" src="http://www.simpleimageresizer.com/_uploads/photos/0ca9f964/mcChip_1_38x26.png"
+		<input id="mcMakeButton"type="image" src="IMAGES/memorychip.png"
   	onclick="mcClickFunc(); mcUnlock();" width="38"
   	height="26">
 		<p> </p>
@@ -42,7 +48,7 @@
 	</div>
 
 	<div id="logicDiv">
-		<input id="lcMakeButton"type="image" src="http://www.simpleimageresizer.com/_uploads/photos/e1abf2b8/New_Piskel-1.png_2_50x50.png"
+		<input id="lcMakeButton"type="image" src="IMAGES/logicchip.png"
   	onclick="lcClickFunc()" width="30"
   	height="30">
 		<p> </p>
@@ -50,9 +56,9 @@
 		<h4 id="lcCounter">Logic Chips = </h4>
 	</div>
 	</div>
-  <script src="clickGainFunc.js"></script>
-	<script src="sellTechV2.js"></script>
-	<script src="unlockItem.js"></script>
+			<script src="clickGainFunc.js"></script>
+			<script src="sellTechV2.js"></script>
+			<script src="unlockItem.js"></script>
 </body>
 
 </html>

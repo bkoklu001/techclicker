@@ -7,12 +7,14 @@
 	display: flex;
 	justify-content: space-around;
 	font-family: 'Courier New', Courier, monospace;
+	margin: 0px;
 }
 
 #titleText{
 	display: flex;
-	justify-content: space-around;
 	font-family: 'Courier New', Courier, monospace;
+	justify-content: center;
+	margin: 0.001%;
 }
 
 #techClickerDiv{
@@ -43,7 +45,7 @@ ul {
 
 li {
   display: inline;
-	margin: 5px;
+	margin: 0px;
 }
 
 li a {
@@ -54,4 +56,9 @@ li a {
 #constructionText{
 	display: flex;
 	justify-content: space-around;
+}
+
+#dataDiv{
+	display: flex;
+	justify-content: center;
 }

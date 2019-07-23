@@ -7,7 +7,6 @@ document.getElementById("ccCounter").innerHTML = "Computer Chips = " + 0;
 function ccClickFunc(){
 	cc = cc + ccClickValue;
 	document.getElementById("ccCounter").innerHTML = "Computer Chips = " + cc;
-	
 }
 
 var mc = 0;
