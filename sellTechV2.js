@@ -1,7 +1,7 @@
 var moneyCurrent = 0.00;
 
 var ccPrice = 0.05;
-varSccSellAmount;
+var ccSellAmount;
 var mcPrice = 0.05;
 var mcSellAmount;
 var lcPrice = 0.10;
